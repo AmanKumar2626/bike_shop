@@ -62,8 +62,8 @@ const Contact = () => {
        <h4 className="sectionSubSubHead">Address :</h4>
        <ul className="list-unstyled">
          <li>My Bike Pvt. Ltd.</li>
-         <li>Dhanbad, Jharkhand</li>
-         <li> Maharashtra , India</li>
+         <li>Bhuli, Dhanbad</li>
+         <li> Jharkhand , India</li>
          <li>Pin: 416001</li>
          <li>Phone: +91 9xxxxxxxx</li>
          <li>Email: example@domain.com</li>

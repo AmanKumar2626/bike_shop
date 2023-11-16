@@ -527,7 +527,7 @@ footer .credit span{
     max-width: 50%;
     max-height: 50%;
 }
-
+/* 
 .grid-container1 {
     display: grid;
     grid-gap: 20px;
@@ -537,11 +537,11 @@ footer .credit span{
   
   .card {
     background-color: #f8f8f8; /* Replace with your desired background color */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 8px;
     overflow: hidden;
-  }
+  } */
   
   .card figure img {
     width: 100%;
