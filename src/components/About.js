@@ -1,7 +1,5 @@
 import React, {useContext, useEffect} from 'react'
-import noteContext from '../context/notes/NoteContext'
-import aboutjpg from "../images/lucas.jpg"
-
+import aboutjpg from "../images/aboutbike.jpg"
 const About = () => {
   return (
     <div>
@@ -9,11 +7,11 @@ const About = () => {
             <h1>About Us</h1>
         </div>
 
-        <div className="container">
+        <div className="about-container">
             <div className="bike-image">
                 <img src={aboutjpg} alt="" />
             </div>
-            <div className="content">
+            <div className="about-content">
                 <h1>Why Choose Us?</h1>
                 <h2>Make Your Ride Comfortable</h2>
                 <p>At Velocity Bikes, we're more than just a bike selling platform; we're enthusiasts, riders, and advocates for the thrilling experience that comes with life on two wheels. Our story is rooted in a shared passion for bikes and a commitment to providing riders with the best possible journey.

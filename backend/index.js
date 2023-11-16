@@ -9,8 +9,7 @@ app.use(cors());
 app.use(express.json());
 //Available routes
 app.use("/api/auth", require("./routes/auth"));
-app.use("/api/notes", require("./routes/notes"));
 
 app.listen(5000, ()=>{
-    console.log("iNoteBook Server started on port 5000");
+    console.log("Server started on port 5000");
 })

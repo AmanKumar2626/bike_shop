@@ -1,10 +1,10 @@
 import React from 'react'
 import "../styles.css"
 import banner from "../images/banner1.jpg"
-import Login from './Login';
-import Signup from './Signup';
-import Products from './Products';
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+// import Login from './Login';
+// import Signup from './Signup';
+// import Products from './Products';
+import { Link, useNavigate } from 'react-router-dom'
 import image1 from "../images/image1.jpg"
 import image2 from "../images/image2.jpg"
 import image3 from "../images/image3.jpg"
@@ -46,9 +46,8 @@ const Home = (props) => {
             <div className="content">
                 <h1>Ride with Style</h1>
                 <h2>Join Biker's Club Now</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt et
-                     accusamus eveniet accusantium aliquam ratione ea perspiciatis aut 
-                     molestiae laboriosam?</p>
+                <p>Discover the Thrill of Riding with Velocity Bikes
+At Velocity Bikes, we are passionate about providing the best biking experience for enthusiasts. Explore our collection of premium bikes, accessories, and services.</p>
 
                 <a href="" className="btn">Learn More</a>
             </div>
@@ -98,23 +97,7 @@ const Home = (props) => {
 
    
 
-    {/* Contact Section */}
-
-    <section className="contact" id="contact">
-
-        <div className="box">
-            <h1>Contact US</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatibus voluptate voluptates aliquid 
-                eveniet? Magnam beatae minus earum error soluta.</p>
-        </div>
-
-        <div className="email">
-            <input type="email" placeholder="Enter Your Email" className="email-1"/>
-            <input type="submit" value="Send" className="submit"/>
-        </div>
-
-    </section>
-
+   
     </div>
   )
 }
